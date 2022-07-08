@@ -1,54 +1,89 @@
 <-----##$$-------Using GITHUB from command line-----##$$------->
 
 1.First of all we are using Windows OS for this Git
+
 2.We have to install git from internet 
+
 	<---link--->
 	https://git-scm.com/downloads
+
 3.After completing installation of Git
+
 4.We have to create a folder in C drive or in which drive the git is installed
+
 5.Open command prompt and go to that directory
+
 6. We have to initialise the git in that directory using this command
+
    <----Command---->
 	>git init
 	after initialise
 	>Initialized empty Git repository in C:/git/.git/
 
 7.Now create a new repository with out adding read me init in GitHub account
+
 8.Copy the link of the repository
+
 9.Now make that repository as origin for this folder using this command
+
 	<----Command---->
 	git remote add origin your_copied_link_of_the_repository
+
 10.Now add the files in the folders to the git using this command
+
 	<----Command---->
 	#(all files)
 	>git add .
+
 	#(specific files)
 	>git add file_name
+
 11. Now use commit option to send it to git by this command
+
 	<----command---->
 	>git command -m "message"
+
 12. To know the status of these all git commits
+
 	<----command---->
 	>git status
+
 13. Now push all these files to GitHub account using this command
+
 	<----command---->
 	>git push origin master
+
 14. To know the status and what commits you are made you can know by using this command
+
 	<----command---->
 	>git log
+
 15. If you want to delete that commit we use this command which contain hash value
+
 	<----command---->
 	git reset d65f433e1f7bd7b3a7818c8117346998610a073a
+
 	the commit all are made after this will be deleted
+
 16.For using separate branch we will use this command
+
 	<----command---->
 	>git branch branch_name
 	>git checkout branch_name
 
 	16.1 after creating this branch now all changes are made will be affected in this branch
+
 	16.2 for parllel accessing of main
+
 		<----command---->
 		>git checkout main
+
 		Now commits will be in main branch
+
+17. For merging this branches into main
+
+	<----command---->
+	>git merge branch_name
+
 	
 	
