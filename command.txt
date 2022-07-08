@@ -13,7 +13,7 @@
 	after initialise
 	>Initialized empty Git repository in C:/git/.git/
 
-7.Now create a new repository in GitHub account
+7.Now create a new repository with out adding read me init in GitHub account
 8.Copy the link of the repository
 9.Now make that repository as origin for this folder using this command
 	<----Command---->
