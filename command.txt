@@ -36,6 +36,19 @@
 14. To know the status and what commits you are made you can know by using this command
 	<----command---->
 	>git log
+15. If you want to delete that commit we use this command which contain hash value
+	<----command---->
+	git reset d65f433e1f7bd7b3a7818c8117346998610a073a
+	the commit all are made after this will be deleted
+16.For using separate branch we will use this command
+	<----command---->
+	>git branch branch_name
+	>git checkout branch_name
 
+	16.1 after creating this branch now all changes are made will be affected in this branch
+	16.2 for parllel accessing of main
+		<----command---->
+		>git checkout main
+		Now commits will be in main branch
 	
 	
