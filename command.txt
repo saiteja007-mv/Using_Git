@@ -91,7 +91,7 @@
 	<----command---->
 	>git clone copied_url_whichisforked
 
-19.
+ <<<<<------------------------Thank you------------------------>>>>>
 
 	
 	
