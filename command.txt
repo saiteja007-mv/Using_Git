@@ -85,5 +85,13 @@
 	<----command---->
 	>git merge branch_name
 
+18. Any other account which resipotary cant be accessed we can fork it
+	make a fork into your account and we can also download it into our system using clone
+	
+	<----command---->
+	>git clone copied_url_whichisforked
+
+19.
+
 	
 	
